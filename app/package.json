@@ -1,0 +1,46 @@
+{
+  "name": "shadowforge-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@arcium-hq/client": "^0.6.5",
+    "@arcium-hq/reader": "^0.6.5",
+    "@coral-xyz/anchor": "^0.31.1",
+    "@particle-network/chains": "^1.8.3",
+    "@radr/shadowwire": "^1.1.15",
+    "@silentswap/sdk": "^0.0.55",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.8",
+    "bn.js": "^5.2.1",
+    "buffer": "^6.0.3",
+    "framer-motion": "^11.15.0",
+    "helius-sdk": "^2.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.14",
+    "@types/react-dom": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  }
+}
