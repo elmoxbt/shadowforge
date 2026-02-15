@@ -1,12 +1,35 @@
+# Anchor
 .anchor
-.DS_Store
-target
+target/
 **/*.rs.bk
-node_modules
-test-ledger
-.yarn
+test-ledger/
 
-*.json
-*.lock
-*.lock.json
-!tsconfig.json
+# Node
+node_modules/
+dist/
+.env
+.DS_Store
+
+# IDL
+app/src/idl/
+
+# Build artifacts
+*.so
+*.pdb
+
+# Deployments
+deployments/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.yarn
